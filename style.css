@@ -1,5 +1,5 @@
 body{
-   background-image: url("zemedina.png");
+   background-image: url("images.png");
   
 }
 h1{
@@ -38,7 +38,7 @@ color: white;
     border-radius: 10px  #eeeeee;
 }
 .zemedina1:hover{
-    border: 10px solid #b306b9;
+    border: 10px solid #ab1e6f;
     border-radius: 50%;
     -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
     filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
@@ -49,7 +49,7 @@ button{
     color: rgb(7, 230, 63);
   padding: 2px 2px 2px;
      text-transform: lowercase;
-     background: rgb(184, 102, 205);
+     background: rgb(18, 166, 177);
      border-radius: 10px 10px 10px;
      transition: all.5s;
 }
