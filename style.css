@@ -45,20 +45,34 @@ color: white;
     -webkit-transform: rotateZ(-360deg) scale(1.5);
     transform: rotateZ(-360deg) scale(1.5);
 }
-button{
-    color: rgb(7, 230, 63);
-  padding: 2px 2px 2px;
-     text-transform: lowercase;
-     background: rgb(18, 166, 177);
-     border-radius: 10px 10px 10px;
-     transition: all.5s;
-}
-button:hover{
-     -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-     -webkit-transform: rotateZ(-360deg) scale(1.5);
-     transform: rotateZ(-360deg) scale(1.5);
-}
+button {
+    padding: 10px 10px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff00;
+    text-shadow: none;
+    background: transparent;
+    box-shadow: transparent;
+    border: 0px solid #ffffff00;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  #btn:hover,:focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+                0 0 20px #008cff,
+                0 0 50px #008cff,
+                0 0 100px #008cff;
+  }
+
 h3{
     text-align: center;
 }
