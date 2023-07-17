@@ -38,12 +38,17 @@ color: white;
     border-radius: 10px  #eeeeee;
 }
 .zemedina1:hover{
-    border: 10px solid #ab1e6f;
+    border: 15px solid #008cff;
     border-radius: 50%;
-    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
-    -webkit-transform: rotateZ(-360deg) scale(1.5);
-    transform: rotateZ(-360deg) scale(1.5);
+   
+    text-shadow: 0 0 5px #ffffff,
+                0 0 10px #ffffff,
+                0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff,
+                0 0 20px #008cff,
+                0 0 50px #008cff,
+                0 0 100px #008cff;
+  
 }
 button {
     padding: 10px 10px;
